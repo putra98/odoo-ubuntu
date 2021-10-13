@@ -1,4 +1,3 @@
-# Instalasi Menggunakan MacOS
 # Cara menginstall Odoo di Ubuntu
 # Berikut langkahnya:
 
