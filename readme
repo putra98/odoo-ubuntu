@@ -1,20 +1,22 @@
+```
 # Cara menginstall Odoo di Ubuntu
 # Berikut langkahnya:
 
 # Step 1 : Update Server
-                   
+```
+
 sudo add-apt-repository universe
                                        
 sudo apt-get update 
                  
 sudo apt-get upgrade -y 
-
+```
 # Step 3 : Install PostgreSQL Server
-        
+``` 
 sudo apt-get install postgresql -y 
-                    
+```               
 # Step 4 : Create Odoo user for PostgreSQL
-                    
+```              
 sudo su - postgres -c "createuser -s odoo" 2> /dev/null || true 
                     
 # Step 5 : Install Python Dependencies
